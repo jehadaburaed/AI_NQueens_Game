@@ -1,0 +1,69 @@
+/*Author: Jehad Abu Raad and Shareef Salahat*/
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+ 
+}
+body {
+  background-image: url('.vscode/Fantasy-Chess-Art-2560x1440.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+  
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.chessboard {
+  display: grid;
+  gap: 0;
+  border: 2px solid #333;
+}
+
+.chessboard div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.chessboard .green  {
+  background-color: #147f10;
+}
+
+.chessboard .white {
+  background-color: #fff;
+}
+
+.chessboard div.queen {
+  font-size: 36px;
+  color: #000000;
+}
+
+.ss{
+
+  right: 50px;
+  padding-left: 5%;
+
+  display: none;
+
+}
+ 
+.tb {
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+
+/*Author: Jehad Abu Raad and Shareef Salahat*/
+
+
